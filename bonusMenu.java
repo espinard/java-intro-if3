@@ -1,11 +1,6 @@
 /**
-         * Objectif: 
-         * 
-         * 1. déclarer tableau de chaines de caractères. Avec 3 noms de crêpes
-         * 2. Afficher le contenu du tableau en utilisant une boucle foreach.
-         * 
-         * 
-         * Le code commenté est pour la version alternative, utlisant un tableau associatif
+         * Exercice Bonus: affichage d'un petit menu de crÃªpes
+         * Le code commentÃ© est pour la version alternative, utlisant un tableau associatif
          */ 
 
 
@@ -18,7 +13,7 @@ public class Interface3{
          
          
          //Pour l'aternative avec tableau associatif (hashmap)
-         // constante:  on ne souhaite plus la modifier après déclaration
+         // constante:  on ne souhaite plus la modifier aprÃ¨s dÃ©claration
 
         // final String ID_CREPE_BOIS = "crepeBois";  
         // final String ID_CREPE_CUPIDON = "crepeCupidon"; 
@@ -31,19 +26,19 @@ public class Interface3{
 		System.out.println(messageBienvenue + " chez " + nomRestaurant); 
 	 
 
-		System.out.println("--- Notre Menu Crêpes ---"); 
+		System.out.println("--- Notre Menu CrÃªpes ---"); 
 
 	
       
     
         
-        String [] menuCrepes = new String [] {"Crêpe Cupidon", "Crêpe des bois", "Crêpe au sucre"}; 
+        String [] menuCrepes = new String [] {"CrÃªpe Cupidon", "CrÃªpe des bois", "CrÃªpe au sucre"}; 
         int [] prixCrepes = new int [] {15, 12, 13}; 
         
         String espacementCrepePrix = "\t...\t";
         String euro = " EUR "; 
         
-        //Comme les deux tableaux ont la même taille, on peut se permettre defaire 
+        //Comme les deux tableaux ont la mÃªme taille, on peut se permettre defaire 
         for (int i =0 ; i< menuCrepes.length; i++) {
             System.out.println(menuCrepes[i] + 
             
@@ -55,16 +50,16 @@ public class Interface3{
         
     
     
-    // 	System.out.println("--- Notre Menu Crêpes (alternative avec tableau associatif)---"); 
+    // 	System.out.println("--- Notre Menu CrÃªpes (alternative avec tableau associatif)---"); 
 
     
     //     Map<String,String> nomCrepes = new HashMap<String,String>();
         
     
 
-    //     nomCrepes.put(ID_CREPE_BOIS, "Crêpe des Bois"); 
-    //     nomCrepes.put(ID_CREPE_CUPIDON, "Crêpe Cupidon"); 
-    //     nomCrepes.put(ID_CREPE_COCO, "Crêpe Coconutella"); 
+    //     nomCrepes.put(ID_CREPE_BOIS, "CrÃªpe des Bois"); 
+    //     nomCrepes.put(ID_CREPE_CUPIDON, "CrÃªpe Cupidon"); 
+    //     nomCrepes.put(ID_CREPE_COCO, "CrÃªpe Coconutella"); 
         
     //     Map<String,Integer> prixAssoc= new HashMap<String,Integer>();
         
@@ -72,7 +67,7 @@ public class Interface3{
     //     prixAssoc.put(ID_CREPE_CUPIDON, new Integer(15)); 
     //     prixAssoc.put(ID_CREPE_COCO, new Integer(13)); 
         
-    //     // nomCrepes.keySet() : récupération des clés utilisées pour le tableau associatif
+    //     // nomCrepes.keySet() : rÃ©cupÃ©ration des clÃ©s utilisÃ©es pour le tableau associatif
         
     //     for(String idCrepe : nomCrepes.keySet()){
             
